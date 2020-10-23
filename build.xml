@@ -12,9 +12,8 @@
 <!-- TARGETS -->
 <target name="war">
 <echo message="Creating WAR file ..." />
-<war destfile="${destDir}/${warFileName}" webxml="${buildDir}/WEB-INF/lib/web.xml">
+<war destfile="${destDir}/${warFileName}" webxml="${buildDir}/WEB-INF/web.xml">
 <fileset dir="${buildDir}" />
-<lib dir="${buildDir}/WEB-INF/lib" />
 </war>
 <echo message="WAR file created." />
 </target>
