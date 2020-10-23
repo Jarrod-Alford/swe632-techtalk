@@ -1,8 +1,8 @@
+<?xml version="1.0" ?>
 <!-- build.xml for Jarrod Alford's SWE645 HW2 project -->
 <!-- This file is used by Jenkins to invoke Ant to build -->
 <!-- the source code into a WAR file. -->
 <!-- [code language="xml"] commented out -->
-<?xml version="1.0" ?>
 <project name="swe645hw2" default="war" basedir=".">
 <!-- PROPERTIES -->
 <property name="buildDir" value="./warbuild" />
